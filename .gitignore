@@ -113,3 +113,6 @@ cainiao_java/.project
 bin/
 .idea/
 .vscode/
+
+# GO
+go.mod
