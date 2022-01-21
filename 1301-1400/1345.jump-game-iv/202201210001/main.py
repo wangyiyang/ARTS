@@ -1,3 +1,7 @@
+from ast import List
+from collections import defaultdict, deque
+
+
 class Solution:
     def minJumps(self, arr: List[int]) -> int:
         idxSameValue = defaultdict(list)
