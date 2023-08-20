@@ -11,3 +11,4 @@
 
 ## Share
 
+[使用 MPI Opnerator 和 DeepSpeed 进行分布式训练](https://www.wangyiyang.cc/2023/08/20/distributed-training-with-mpi-operator-and-deepspeed/)
