@@ -1,3 +1,4 @@
+import java.util.Arrays;
 /**
  * This class provides a solution to the h-index problem.
  * The h-index is defined as the maximum value of h such that the given array of citations has at least h papers with h or more citations.
@@ -13,6 +14,7 @@ class Solution {
         System.out.println(Arrays.toString(citations));
         int h = 0;
         for (int i = citations.length - 1; i >= 0; i--) {
+            System.out.println("citations[" + i + "] = " + citations[i] + ", h = " + h);
             if (citations[i] > h) {
                 h++;
             } else {
